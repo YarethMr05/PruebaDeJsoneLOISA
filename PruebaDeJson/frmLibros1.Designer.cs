@@ -28,182 +28,183 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtISBN = new System.Windows.Forms.TextBox();
-            this.txtTitulo = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtAutor = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtEditorial = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtPagina = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.btnRegistrar = new System.Windows.Forms.Button();
-            this.btnGuardar = new System.Windows.Forms.Button();
-            this.btnMostrar = new System.Windows.Forms.Button();
-            this.btnSalir = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            label1 = new Label();
+            label2 = new Label();
+            txtISBN = new TextBox();
+            txtTitulo = new TextBox();
+            label3 = new Label();
+            txtAutor = new TextBox();
+            label4 = new Label();
+            txtEditorial = new TextBox();
+            label5 = new Label();
+            txtPagina = new TextBox();
+            label6 = new Label();
+            btnRegistrar = new Button();
+            btnGuardar = new Button();
+            btnMostrar = new Button();
+            btnSalir = new Button();
+            SuspendLayout();
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft New Tai Lue", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(267, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(224, 28);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "REGISTRO DE LIBROS";
+            label1.AutoSize = true;
+            label1.Font = new Font("Microsoft New Tai Lue", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(267, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(224, 28);
+            label1.TabIndex = 0;
+            label1.Text = "REGISTRO DE LIBROS";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft New Tai Lue", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(25, 56);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(47, 21);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "ISBN";
+            label2.AutoSize = true;
+            label2.Font = new Font("Microsoft New Tai Lue", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Location = new Point(25, 56);
+            label2.Name = "label2";
+            label2.Size = new Size(47, 21);
+            label2.TabIndex = 1;
+            label2.Text = "ISBN";
             // 
             // txtISBN
             // 
-            this.txtISBN.Location = new System.Drawing.Point(76, 56);
-            this.txtISBN.Name = "txtISBN";
-            this.txtISBN.Size = new System.Drawing.Size(169, 23);
-            this.txtISBN.TabIndex = 2;
+            txtISBN.Location = new Point(76, 56);
+            txtISBN.Name = "txtISBN";
+            txtISBN.Size = new Size(169, 23);
+            txtISBN.TabIndex = 2;
             // 
             // txtTitulo
             // 
-            this.txtTitulo.Location = new System.Drawing.Point(327, 58);
-            this.txtTitulo.Name = "txtTitulo";
-            this.txtTitulo.Size = new System.Drawing.Size(169, 23);
-            this.txtTitulo.TabIndex = 4;
+            txtTitulo.Location = new Point(327, 58);
+            txtTitulo.Name = "txtTitulo";
+            txtTitulo.Size = new Size(169, 23);
+            txtTitulo.TabIndex = 4;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft New Tai Lue", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(267, 60);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 21);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "TITULO";
+            label3.AutoSize = true;
+            label3.Font = new Font("Microsoft New Tai Lue", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Location = new Point(267, 60);
+            label3.Name = "label3";
+            label3.Size = new Size(65, 21);
+            label3.TabIndex = 3;
+            label3.Text = "TITULO";
             // 
             // txtAutor
             // 
-            this.txtAutor.Location = new System.Drawing.Point(597, 58);
-            this.txtAutor.Name = "txtAutor";
-            this.txtAutor.Size = new System.Drawing.Size(169, 23);
-            this.txtAutor.TabIndex = 6;
+            txtAutor.Location = new Point(597, 58);
+            txtAutor.Name = "txtAutor";
+            txtAutor.Size = new Size(169, 23);
+            txtAutor.TabIndex = 6;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft New Tai Lue", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(538, 60);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(64, 21);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "AUTOR";
+            label4.AutoSize = true;
+            label4.Font = new Font("Microsoft New Tai Lue", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.Location = new Point(538, 60);
+            label4.Name = "label4";
+            label4.Size = new Size(64, 21);
+            label4.TabIndex = 5;
+            label4.Text = "AUTOR";
             // 
             // txtEditorial
             // 
-            this.txtEditorial.Location = new System.Drawing.Point(197, 105);
-            this.txtEditorial.Name = "txtEditorial";
-            this.txtEditorial.Size = new System.Drawing.Size(169, 23);
-            this.txtEditorial.TabIndex = 8;
+            txtEditorial.Location = new Point(197, 105);
+            txtEditorial.Name = "txtEditorial";
+            txtEditorial.Size = new Size(169, 23);
+            txtEditorial.TabIndex = 8;
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft New Tai Lue", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(110, 107);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(91, 21);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "EDITORIAL";
+            label5.AutoSize = true;
+            label5.Font = new Font("Microsoft New Tai Lue", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label5.Location = new Point(110, 107);
+            label5.Name = "label5";
+            label5.Size = new Size(91, 21);
+            label5.TabIndex = 7;
+            label5.Text = "EDITORIAL";
             // 
             // txtPagina
             // 
-            this.txtPagina.Location = new System.Drawing.Point(468, 107);
-            this.txtPagina.Name = "txtPagina";
-            this.txtPagina.Size = new System.Drawing.Size(169, 23);
-            this.txtPagina.TabIndex = 10;
+            txtPagina.Location = new Point(468, 107);
+            txtPagina.Name = "txtPagina";
+            txtPagina.Size = new Size(169, 23);
+            txtPagina.TabIndex = 10;
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft New Tai Lue", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(382, 109);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(80, 21);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "PAGINAS";
+            label6.AutoSize = true;
+            label6.Font = new Font("Microsoft New Tai Lue", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label6.Location = new Point(382, 109);
+            label6.Name = "label6";
+            label6.Size = new Size(80, 21);
+            label6.TabIndex = 9;
+            label6.Text = "PAGINAS";
             // 
             // btnRegistrar
             // 
-            this.btnRegistrar.Location = new System.Drawing.Point(327, 158);
-            this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(105, 36);
-            this.btnRegistrar.TabIndex = 11;
-            this.btnRegistrar.Text = "REGISTRAR";
-            this.btnRegistrar.UseVisualStyleBackColor = true;
-            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
+            btnRegistrar.Location = new Point(327, 158);
+            btnRegistrar.Name = "btnRegistrar";
+            btnRegistrar.Size = new Size(105, 36);
+            btnRegistrar.TabIndex = 11;
+            btnRegistrar.Text = "REGISTRAR";
+            btnRegistrar.UseVisualStyleBackColor = true;
+            btnRegistrar.Click += btnRegistrar_Click;
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(327, 200);
-            this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(105, 36);
-            this.btnGuardar.TabIndex = 12;
-            this.btnGuardar.Text = "GUARDAR";
-            this.btnGuardar.UseVisualStyleBackColor = true;
-            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
+            btnGuardar.Location = new Point(327, 200);
+            btnGuardar.Name = "btnGuardar";
+            btnGuardar.Size = new Size(105, 36);
+            btnGuardar.TabIndex = 12;
+            btnGuardar.Text = "GUARDAR";
+            btnGuardar.UseVisualStyleBackColor = true;
+            btnGuardar.Click += btnGuardar_Click;
             // 
             // btnMostrar
             // 
-            this.btnMostrar.Location = new System.Drawing.Point(327, 242);
-            this.btnMostrar.Name = "btnMostrar";
-            this.btnMostrar.Size = new System.Drawing.Size(105, 36);
-            this.btnMostrar.TabIndex = 13;
-            this.btnMostrar.Text = "MOSTRAR";
-            this.btnMostrar.UseVisualStyleBackColor = true;
+            btnMostrar.Location = new Point(327, 242);
+            btnMostrar.Name = "btnMostrar";
+            btnMostrar.Size = new Size(105, 36);
+            btnMostrar.TabIndex = 13;
+            btnMostrar.Text = "MOSTRAR";
+            btnMostrar.UseVisualStyleBackColor = true;
+            btnMostrar.Click += btnMostrar_Click;
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(327, 284);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(105, 36);
-            this.btnSalir.TabIndex = 14;
-            this.btnSalir.Text = "SALIR";
-            this.btnSalir.UseVisualStyleBackColor = true;
+            btnSalir.Location = new Point(327, 284);
+            btnSalir.Name = "btnSalir";
+            btnSalir.Size = new Size(105, 36);
+            btnSalir.TabIndex = 14;
+            btnSalir.Text = "SALIR";
+            btnSalir.UseVisualStyleBackColor = true;
+            btnSalir.Click += btnSalir_Click;
             // 
-            // Form1
+            // frmLibros1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 339);
-            this.Controls.Add(this.btnSalir);
-            this.Controls.Add(this.btnMostrar);
-            this.Controls.Add(this.btnGuardar);
-            this.Controls.Add(this.btnRegistrar);
-            this.Controls.Add(this.txtPagina);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.txtEditorial);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.txtAutor);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.txtTitulo);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.txtISBN);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 339);
+            Controls.Add(btnSalir);
+            Controls.Add(btnMostrar);
+            Controls.Add(btnGuardar);
+            Controls.Add(btnRegistrar);
+            Controls.Add(txtPagina);
+            Controls.Add(label6);
+            Controls.Add(txtEditorial);
+            Controls.Add(label5);
+            Controls.Add(txtAutor);
+            Controls.Add(label4);
+            Controls.Add(txtTitulo);
+            Controls.Add(label3);
+            Controls.Add(txtISBN);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Name = "frmLibros1";
+            Text = "Form1";
+            Load += Form1_Load;
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

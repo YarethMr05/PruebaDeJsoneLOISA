@@ -36,16 +36,39 @@ namespace PruebaDeJson
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-           
+
 
             string json = JsonSerializer.Serialize(datos);
             File.WriteAllText("RegistroDeLIbros.json", json);
-           
+            MessageBox.Show(" SE A CREADO EL ARCHIVO JSON EXITOSAMENTE", " CREADO");
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-           
+            if (File.Exists("RegistroDeLIbros.json"))
+            {
+                string cargar = File.ReadAllText("RegistroDeLIbros.json");
+                datos = JsonSerializer.Deserialize<List<Registro>>(cargar);
+            }
+            
+
+        }
+
+        private void btnMostrar_Click(object sender, EventArgs e)
+        {
+            frmMostrar mostrar = new frmMostrar();
+            mostrar.Show();
+            this.Hide();
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            DialogResult d = MessageBox.Show("Esta seguro que quiere salir?", "REGISTRO", MessageBoxButtons.YesNo, MessageBoxIcon.Question
+              );
+
+            if (d == DialogResult.Yes)
+                this.Close();
         }
     }
 }
